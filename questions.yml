@@ -3,7 +3,9 @@ categories:
 - Proxy
 questions:
 - variable: deploymenttitle
-default: "foobar"
-description: "Set a name for the deployment"
-required: true
-label: Nginx deploymenttitle set
+  default: "foobar"
+  description: "Set a name for the deployment"
+  type: string
+  group: "Nginx Deployment Settings"
+  required: true
+  label: Nginx deploymenttitle set
