@@ -5,6 +5,5 @@ questions:
 - variable: deploymenttitle
 default: "foobar"
 description: "Set a name for the deployment"
-type: string
 required: true
 label: Nginx deploymenttitle set
